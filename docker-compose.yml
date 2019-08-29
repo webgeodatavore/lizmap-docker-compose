@@ -1,7 +1,7 @@
 version: '3'
 services:
   lizmap:
-    image: 3liz/lizmap-web-client:3.2
+    image: 3liz/lizmap-web-client:3.3-rc
     environment:
       LIZMAP_CACHEREDISDB: '1'
       LIZMAP_CACHEREDISHOST: redis
@@ -28,10 +28,12 @@ services:
       QGSRV_LOGGING_LEVEL: DEBUG
       QGSRV_USER: ${LIZMAP_USER_ID}:${LIZMAP_USER_GID}
       ROUTER_HOST: map
+      QGSRV_SERVER_PLUGINPATH: /srv/plugins-server
     volumes:
       - ${LIZMAP_DIR}/instances:/srv/projects
       - ${LIZMAP_DIR}/etc:/srv/etc:ro
       - ${LIZMAP_DIR}/wps-data:/srv/data
+      - ${LIZMAP_DIR}/plugins-server:/srv/plugins-server
     restart: unless-stopped
   redis:
     image: redis:5
