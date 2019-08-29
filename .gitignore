@@ -4,5 +4,5 @@
 /lizmap/www
 /lizmap/var
 /lizmap/wps-data
-
+*.pyc
 
