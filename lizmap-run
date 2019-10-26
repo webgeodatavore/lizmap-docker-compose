@@ -3,6 +3,8 @@
 set -e
 
 export LIZMAP_DIR=${LIZMAP_DIR:-$(pwd)/lizmap}
+export PROJECT_DIR=${PROJECT_DIR:-$(pwd)/lizmap/instances}
+export LIZMAP_VAR_DIR=${LIZMAP_VAR_DIR:-$(pwd)/lizmap/var}
 export LIZMAP_USER_ID=${LIZMAP_USER:-$(id -u)}
 export LIZMAP_USER_GID=${LIZMAP_GID:-$(id -g)}
 

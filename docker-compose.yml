@@ -1,7 +1,7 @@
 version: '3'
 services:
   lizmap:
-    image: 3liz/lizmap-web-client:3.3-rc
+    image: 3liz/lizmap-web-client:3.3
     environment:
       LIZMAP_CACHEREDISDB: '1'
       LIZMAP_CACHEREDISHOST: redis
@@ -10,10 +10,10 @@ services:
       LIZMAP_USER: ${LIZMAP_USER_ID}
       LIZMAP_WMSSERVERURL: http://map:8080/ows/
     volumes:
-      - ${LIZMAP_DIR}/instances:/srv/projects
-      - ${LIZMAP_DIR}/var/lizmap-theme-config:/www/lizmap/var/lizmap-theme-config
-      - ${LIZMAP_DIR}/var/lizmap-config:/www/lizmap/var/config
-      - ${LIZMAP_DIR}/var/lizmap-db:/www/lizmap/var/db
+      - ${PROJECT_DIR}:/srv/projects
+      - ${LIZMAP_VAR_DIR}/lizmap-theme-config:/www/lizmap/var/lizmap-theme-config
+      - ${LIZMAP_VAR_DIR}/lizmap-config:/www/lizmap/var/config
+      - ${LIZMAP_VAR_DIR}/lizmap-db:/www/lizmap/var/db
       - ${LIZMAP_DIR}/www:/www/lizmap/www
       - ${LIZMAP_DIR}/www/var/log:/www/lizmap/var/log
     command:
@@ -30,7 +30,7 @@ services:
       ROUTER_HOST: map
       QGSRV_SERVER_PLUGINPATH: /srv/plugins-server
     volumes:
-      - ${LIZMAP_DIR}/instances:/srv/projects
+      - ${PROJECT_DIR}:/srv/projects
       - ${LIZMAP_DIR}/etc:/srv/etc:ro
       - ${LIZMAP_DIR}/wps-data:/srv/data
       - ${LIZMAP_DIR}/plugins-server:/srv/plugins-server

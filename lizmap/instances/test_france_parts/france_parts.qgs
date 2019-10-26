@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.4.9-Madeira" projectname="">
+<qgis projectname="" version="3.4.9-Madeira">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -19,13 +19,13 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="france_parts bordure" source="./france_parts/france_parts.shp" id="france_parts_copier20180110163243267" providerKey="ogr" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer id="france_parts_copier20180110163243267" source="./france_parts/france_parts.shp" providerKey="ogr" name="france_parts bordure" checked="Qt::Checked" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="france_parts" source="./france_parts/france_parts.shp" id="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" providerKey="ogr" expanded="1" checked="Qt::Checked">
+    <layer-tree-layer id="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" source="./france_parts/france_parts.shp" providerKey="ogr" name="france_parts" checked="Qt::Checked" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="france_parts tuilé en cache" source="./france_parts/france_parts.shp" id="france_parts_copier20180110163329820" providerKey="ogr" expanded="1" checked="Qt::Unchecked">
+    <layer-tree-layer id="france_parts_copier20180110163329820" source="./france_parts/france_parts.shp" providerKey="ogr" name="france_parts tuilé en cache" checked="Qt::Unchecked" expanded="1">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -34,21 +34,21 @@
       <item>france_parts_copier20180110163329820</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings type="1" intersection-snapping="0" enabled="1" tolerance="0" mode="3" unit="2">
+  <snapping-settings tolerance="0" unit="2" mode="3" intersection-snapping="0" enabled="1" type="1">
     <individual-layer-settings>
-      <layer-setting type="1" id="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" enabled="0" tolerance="0" units="2"/>
-      <layer-setting type="1" id="france_parts_copier20180110163329820" enabled="0" tolerance="0" units="2"/>
-      <layer-setting type="1" id="france_parts_copier20180110163243267" enabled="0" tolerance="0" units="2"/>
+      <layer-setting id="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" tolerance="0" enabled="0" units="2" type="1"/>
+      <layer-setting id="france_parts_copier20180110163329820" tolerance="0" enabled="0" units="2" type="1"/>
+      <layer-setting id="france_parts_copier20180110163243267" tolerance="0" enabled="0" units="2" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-5.33889081436202328</xmin>
-      <ymin>46.19300890773994439</ymin>
-      <xmax>3.32419280355761426</xmax>
-      <ymax>49.81265618522981953</ymax>
+      <xmin>-5.25114857650328481</xmin>
+      <ymin>46.05262132716596568</ymin>
+      <xmax>3.41193504141635273</xmax>
+      <ymax>49.67226860465584082</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -67,25 +67,25 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer name="france_parts bordure" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="france_parts_copier20180110163243267"/>
+    <legendlayer checked="Qt::Checked" name="france_parts bordure" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="france_parts_copier20180110163243267"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="france_parts" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Checked">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" isInOverview="0" layerid="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29"/>
+    <legendlayer checked="Qt::Checked" name="france_parts" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="france_parts tuilé en cache" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Unchecked">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile visible="0" isInOverview="0" layerid="france_parts_copier20180110163329820"/>
+    <legendlayer checked="Qt::Unchecked" name="france_parts tuilé en cache" drawingOrder="-1" open="true" showFeatureCount="0">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="0" layerid="france_parts_copier20180110163329820"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <projectlayers>
-    <maplayer labelsEnabled="1" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" maxScale="0" minScale="0" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyAlgorithm="0">
+    <maplayer refreshOnNotifyMessage="" minScale="0" simplifyDrawingHints="1" autoRefreshTime="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" maxScale="0" labelsEnabled="0" simplifyAlgorithm="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-5.1326269186972695</xmin>
         <ymin>46.2791909857754149</ymin>
@@ -117,6 +117,15 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -129,12 +138,20 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial crs="" miny="0" minx="0" dimensions="2" maxy="0" maxx="0" maxz="0" minz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
+      <provider encoding="ISO-8859-1">ogr</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -149,10 +166,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol name="0" type="fill" clip_to_extent="1" force_rhr="0" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="140,130,77,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -166,9 +183,9 @@
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -177,10 +194,33 @@
         <rotation/>
         <sizescale/>
       </renderer-v2>
-      <customproperties/>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>NAME_0</value>
+          <value>"NAME_0"</value>
+        </property>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory labelPlacementMethod="XHeight" backgroundColor="#ffffff" diagramOrientation="Up" height="15" minScaleDenominator="0" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" opacity="1" rotationOffset="270" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" maxScaleDenominator="0" enabled="0" sizeType="MM" minimumSize="0" penColor="#000000" backgroundAlpha="255" penWidth="0" scaleBasedVisibility="0" width="15" scaleDependency="Area">
+          <fontProperties description="Sans Serif,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute label="" field="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="18" showAll="1" placement="1" obstacle="0" priority="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
       <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
@@ -190,8 +230,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -200,8 +240,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -210,8 +250,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -220,8 +260,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -230,8 +270,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -240,8 +280,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -250,8 +290,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -260,8 +300,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -270,8 +310,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -280,8 +320,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -290,8 +330,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -300,8 +340,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -310,8 +350,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -320,8 +360,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -330,8 +370,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -340,8 +380,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -350,8 +390,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -360,8 +400,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -370,8 +410,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -380,8 +420,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -390,8 +430,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -400,8 +440,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -410,8 +450,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -420,8 +460,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -430,8 +470,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -440,8 +480,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -450,8 +490,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -460,8 +500,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -470,8 +510,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -480,8 +520,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -490,8 +530,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -500,8 +540,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -510,8 +550,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -520,8 +560,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -530,8 +570,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -540,8 +580,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -550,8 +590,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -560,8 +600,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -610,135 +650,176 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
-        <default field="VertexCou" expression="" applyOnUpdate="0"/>
-        <default field="ISO" expression="" applyOnUpdate="0"/>
-        <default field="NAME_0" expression="" applyOnUpdate="0"/>
-        <default field="NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="VARNAME_1" expression="" applyOnUpdate="0"/>
-        <default field="NL_NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="HASC_1" expression="" applyOnUpdate="0"/>
-        <default field="TYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="ENGTYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDFR_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDTO_1" expression="" applyOnUpdate="0"/>
-        <default field="REMARKS_1" expression="" applyOnUpdate="0"/>
-        <default field="Region" expression="" applyOnUpdate="0"/>
-        <default field="RegionVar" expression="" applyOnUpdate="0"/>
-        <default field="ProvNumber" expression="" applyOnUpdate="0"/>
-        <default field="NEV_Countr" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_FIPS" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_HASC" expression="" applyOnUpdate="0"/>
-        <default field="FIPS_1" expression="" applyOnUpdate="0"/>
-        <default field="gadm_level" expression="" applyOnUpdate="0"/>
-        <default field="CheckMe" expression="" applyOnUpdate="0"/>
-        <default field="Region_Cod" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_1" expression="" applyOnUpdate="0"/>
-        <default field="ScaleRank" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_2" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_3" expression="" applyOnUpdate="0"/>
-        <default field="Country_Pr" expression="" applyOnUpdate="0"/>
-        <default field="DataRank" expression="" applyOnUpdate="0"/>
-        <default field="Abbrev" expression="" applyOnUpdate="0"/>
-        <default field="Postal" expression="" applyOnUpdate="0"/>
-        <default field="Area_sqkm" expression="" applyOnUpdate="0"/>
-        <default field="sameAsCity" expression="" applyOnUpdate="0"/>
-        <default field="ADM0_A3" expression="" applyOnUpdate="0"/>
-        <default field="MAP_COLOR" expression="" applyOnUpdate="0"/>
-        <default field="LabelRank" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Leng" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Area" expression="" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="OBJECTID"/>
+        <default expression="" applyOnUpdate="0" field="VertexCou"/>
+        <default expression="" applyOnUpdate="0" field="ISO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_0"/>
+        <default expression="" applyOnUpdate="0" field="NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="VARNAME_1"/>
+        <default expression="" applyOnUpdate="0" field="NL_NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="HASC_1"/>
+        <default expression="" applyOnUpdate="0" field="TYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="ENGTYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDFR_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDTO_1"/>
+        <default expression="" applyOnUpdate="0" field="REMARKS_1"/>
+        <default expression="" applyOnUpdate="0" field="Region"/>
+        <default expression="" applyOnUpdate="0" field="RegionVar"/>
+        <default expression="" applyOnUpdate="0" field="ProvNumber"/>
+        <default expression="" applyOnUpdate="0" field="NEV_Countr"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_FIPS"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_HASC"/>
+        <default expression="" applyOnUpdate="0" field="FIPS_1"/>
+        <default expression="" applyOnUpdate="0" field="gadm_level"/>
+        <default expression="" applyOnUpdate="0" field="CheckMe"/>
+        <default expression="" applyOnUpdate="0" field="Region_Cod"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_1"/>
+        <default expression="" applyOnUpdate="0" field="ScaleRank"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_2"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_3"/>
+        <default expression="" applyOnUpdate="0" field="Country_Pr"/>
+        <default expression="" applyOnUpdate="0" field="DataRank"/>
+        <default expression="" applyOnUpdate="0" field="Abbrev"/>
+        <default expression="" applyOnUpdate="0" field="Postal"/>
+        <default expression="" applyOnUpdate="0" field="Area_sqkm"/>
+        <default expression="" applyOnUpdate="0" field="sameAsCity"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3"/>
+        <default expression="" applyOnUpdate="0" field="MAP_COLOR"/>
+        <default expression="" applyOnUpdate="0" field="LabelRank"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="OBJECTID" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VertexCou" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ISO" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_0" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VARNAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NL_NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="HASC_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="TYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ENGTYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDFR_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDTO_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="REMARKS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="RegionVar" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ProvNumber" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NEV_Countr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_FIPS" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_HASC" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIPS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="gadm_level" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="CheckMe" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_Cod" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ScaleRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_2" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Country_Pr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="DataRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Abbrev" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Postal" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Area_sqkm" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="sameAsCity" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ADM0_A3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="MAP_COLOR" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="LabelRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Leng" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Area" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="OBJECTID" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VertexCou" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ISO" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_0" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VARNAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NL_NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="HASC_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="TYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ENGTYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDFR_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDTO_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="REMARKS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="RegionVar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ProvNumber" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NEV_Countr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_FIPS" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_HASC" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIPS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="gadm_level" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="CheckMe" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_Cod" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ScaleRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_2" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Country_Pr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="DataRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Abbrev" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Postal" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Area_sqkm" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sameAsCity" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ADM0_A3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="MAP_COLOR" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="LabelRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Leng" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Area" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="OBJECTID" exp=""/>
-        <constraint desc="" field="VertexCou" exp=""/>
-        <constraint desc="" field="ISO" exp=""/>
-        <constraint desc="" field="NAME_0" exp=""/>
-        <constraint desc="" field="NAME_1" exp=""/>
-        <constraint desc="" field="VARNAME_1" exp=""/>
-        <constraint desc="" field="NL_NAME_1" exp=""/>
-        <constraint desc="" field="HASC_1" exp=""/>
-        <constraint desc="" field="TYPE_1" exp=""/>
-        <constraint desc="" field="ENGTYPE_1" exp=""/>
-        <constraint desc="" field="VALIDFR_1" exp=""/>
-        <constraint desc="" field="VALIDTO_1" exp=""/>
-        <constraint desc="" field="REMARKS_1" exp=""/>
-        <constraint desc="" field="Region" exp=""/>
-        <constraint desc="" field="RegionVar" exp=""/>
-        <constraint desc="" field="ProvNumber" exp=""/>
-        <constraint desc="" field="NEV_Countr" exp=""/>
-        <constraint desc="" field="FIRST_FIPS" exp=""/>
-        <constraint desc="" field="FIRST_HASC" exp=""/>
-        <constraint desc="" field="FIPS_1" exp=""/>
-        <constraint desc="" field="gadm_level" exp=""/>
-        <constraint desc="" field="CheckMe" exp=""/>
-        <constraint desc="" field="Region_Cod" exp=""/>
-        <constraint desc="" field="Region_C_1" exp=""/>
-        <constraint desc="" field="ScaleRank" exp=""/>
-        <constraint desc="" field="Region_C_2" exp=""/>
-        <constraint desc="" field="Region_C_3" exp=""/>
-        <constraint desc="" field="Country_Pr" exp=""/>
-        <constraint desc="" field="DataRank" exp=""/>
-        <constraint desc="" field="Abbrev" exp=""/>
-        <constraint desc="" field="Postal" exp=""/>
-        <constraint desc="" field="Area_sqkm" exp=""/>
-        <constraint desc="" field="sameAsCity" exp=""/>
-        <constraint desc="" field="ADM0_A3" exp=""/>
-        <constraint desc="" field="MAP_COLOR" exp=""/>
-        <constraint desc="" field="LabelRank" exp=""/>
-        <constraint desc="" field="Shape_Leng" exp=""/>
-        <constraint desc="" field="Shape_Area" exp=""/>
+        <constraint exp="" desc="" field="OBJECTID"/>
+        <constraint exp="" desc="" field="VertexCou"/>
+        <constraint exp="" desc="" field="ISO"/>
+        <constraint exp="" desc="" field="NAME_0"/>
+        <constraint exp="" desc="" field="NAME_1"/>
+        <constraint exp="" desc="" field="VARNAME_1"/>
+        <constraint exp="" desc="" field="NL_NAME_1"/>
+        <constraint exp="" desc="" field="HASC_1"/>
+        <constraint exp="" desc="" field="TYPE_1"/>
+        <constraint exp="" desc="" field="ENGTYPE_1"/>
+        <constraint exp="" desc="" field="VALIDFR_1"/>
+        <constraint exp="" desc="" field="VALIDTO_1"/>
+        <constraint exp="" desc="" field="REMARKS_1"/>
+        <constraint exp="" desc="" field="Region"/>
+        <constraint exp="" desc="" field="RegionVar"/>
+        <constraint exp="" desc="" field="ProvNumber"/>
+        <constraint exp="" desc="" field="NEV_Countr"/>
+        <constraint exp="" desc="" field="FIRST_FIPS"/>
+        <constraint exp="" desc="" field="FIRST_HASC"/>
+        <constraint exp="" desc="" field="FIPS_1"/>
+        <constraint exp="" desc="" field="gadm_level"/>
+        <constraint exp="" desc="" field="CheckMe"/>
+        <constraint exp="" desc="" field="Region_Cod"/>
+        <constraint exp="" desc="" field="Region_C_1"/>
+        <constraint exp="" desc="" field="ScaleRank"/>
+        <constraint exp="" desc="" field="Region_C_2"/>
+        <constraint exp="" desc="" field="Region_C_3"/>
+        <constraint exp="" desc="" field="Country_Pr"/>
+        <constraint exp="" desc="" field="DataRank"/>
+        <constraint exp="" desc="" field="Abbrev"/>
+        <constraint exp="" desc="" field="Postal"/>
+        <constraint exp="" desc="" field="Area_sqkm"/>
+        <constraint exp="" desc="" field="sameAsCity"/>
+        <constraint exp="" desc="" field="ADM0_A3"/>
+        <constraint exp="" desc="" field="MAP_COLOR"/>
+        <constraint exp="" desc="" field="LabelRank"/>
+        <constraint exp="" desc="" field="Shape_Leng"/>
+        <constraint exp="" desc="" field="Shape_Area"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <actionsetting action="" name="" type="0" notificationMessage="" id="{c6c89ed6-0bef-4747-9f4f-fde5af4269a8}" icon="" capture="0" shortTitle="" isEnabledOnlyWhenEditable="0">
-          <actionScope id="Field"/>
+        <defaultAction value="{f983106b-865c-4adb-a1d2-5c6afc79707f}" key="Canvas"/>
+        <actionsetting shortTitle="" id="{f983106b-865c-4adb-a1d2-5c6afc79707f}" action="" name="" isEnabledOnlyWhenEditable="0" icon="" notificationMessage="" capture="0" type="0">
           <actionScope id="Feature"/>
+          <actionScope id="Field"/>
           <actionScope id="Canvas"/>
         </actionsetting>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns/>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column name="OBJECTID" width="-1" hidden="0" type="field"/>
+          <column name="VertexCou" width="-1" hidden="0" type="field"/>
+          <column name="ISO" width="-1" hidden="0" type="field"/>
+          <column name="NAME_0" width="-1" hidden="0" type="field"/>
+          <column name="NAME_1" width="-1" hidden="0" type="field"/>
+          <column name="VARNAME_1" width="-1" hidden="0" type="field"/>
+          <column name="NL_NAME_1" width="-1" hidden="0" type="field"/>
+          <column name="HASC_1" width="-1" hidden="0" type="field"/>
+          <column name="TYPE_1" width="-1" hidden="0" type="field"/>
+          <column name="ENGTYPE_1" width="-1" hidden="0" type="field"/>
+          <column name="VALIDFR_1" width="-1" hidden="0" type="field"/>
+          <column name="VALIDTO_1" width="-1" hidden="0" type="field"/>
+          <column name="REMARKS_1" width="-1" hidden="0" type="field"/>
+          <column name="Region" width="-1" hidden="0" type="field"/>
+          <column name="RegionVar" width="-1" hidden="0" type="field"/>
+          <column name="ProvNumber" width="-1" hidden="0" type="field"/>
+          <column name="NEV_Countr" width="-1" hidden="0" type="field"/>
+          <column name="FIRST_FIPS" width="-1" hidden="0" type="field"/>
+          <column name="FIRST_HASC" width="-1" hidden="0" type="field"/>
+          <column name="FIPS_1" width="-1" hidden="0" type="field"/>
+          <column name="gadm_level" width="-1" hidden="0" type="field"/>
+          <column name="CheckMe" width="-1" hidden="0" type="field"/>
+          <column name="Region_Cod" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_1" width="-1" hidden="0" type="field"/>
+          <column name="ScaleRank" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_2" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_3" width="-1" hidden="0" type="field"/>
+          <column name="Country_Pr" width="-1" hidden="0" type="field"/>
+          <column name="DataRank" width="-1" hidden="0" type="field"/>
+          <column name="Abbrev" width="-1" hidden="0" type="field"/>
+          <column name="Postal" width="-1" hidden="0" type="field"/>
+          <column name="Area_sqkm" width="-1" hidden="0" type="field"/>
+          <column name="sameAsCity" width="-1" hidden="0" type="field"/>
+          <column name="ADM0_A3" width="-1" hidden="0" type="field"/>
+          <column name="MAP_COLOR" width="-1" hidden="0" type="field"/>
+          <column name="LabelRank" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Leng" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Area" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
       </attributetableconfig>
       <conditionalstyles>
         <rowstyles/>
@@ -748,16 +829,110 @@
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
       <editforminitfilepath>../../../../../..</editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
+      <editable>
+        <field name="ADM0_A3" editable="1"/>
+        <field name="Abbrev" editable="1"/>
+        <field name="Area_sqkm" editable="1"/>
+        <field name="CheckMe" editable="1"/>
+        <field name="Country_Pr" editable="1"/>
+        <field name="DataRank" editable="1"/>
+        <field name="ENGTYPE_1" editable="1"/>
+        <field name="FIPS_1" editable="1"/>
+        <field name="FIRST_FIPS" editable="1"/>
+        <field name="FIRST_HASC" editable="1"/>
+        <field name="HASC_1" editable="1"/>
+        <field name="ISO" editable="1"/>
+        <field name="LabelRank" editable="1"/>
+        <field name="MAP_COLOR" editable="1"/>
+        <field name="NAME_0" editable="1"/>
+        <field name="NAME_1" editable="1"/>
+        <field name="NEV_Countr" editable="1"/>
+        <field name="NL_NAME_1" editable="1"/>
+        <field name="OBJECTID" editable="1"/>
+        <field name="Postal" editable="1"/>
+        <field name="ProvNumber" editable="1"/>
+        <field name="REMARKS_1" editable="1"/>
+        <field name="Region" editable="1"/>
+        <field name="RegionVar" editable="1"/>
+        <field name="Region_C_1" editable="1"/>
+        <field name="Region_C_2" editable="1"/>
+        <field name="Region_C_3" editable="1"/>
+        <field name="Region_Cod" editable="1"/>
+        <field name="ScaleRank" editable="1"/>
+        <field name="Shape_Area" editable="1"/>
+        <field name="Shape_Leng" editable="1"/>
+        <field name="TYPE_1" editable="1"/>
+        <field name="VALIDFR_1" editable="1"/>
+        <field name="VALIDTO_1" editable="1"/>
+        <field name="VARNAME_1" editable="1"/>
+        <field name="VertexCou" editable="1"/>
+        <field name="gadm_level" editable="1"/>
+        <field name="sameAsCity" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="ADM0_A3" labelOnTop="0"/>
+        <field name="Abbrev" labelOnTop="0"/>
+        <field name="Area_sqkm" labelOnTop="0"/>
+        <field name="CheckMe" labelOnTop="0"/>
+        <field name="Country_Pr" labelOnTop="0"/>
+        <field name="DataRank" labelOnTop="0"/>
+        <field name="ENGTYPE_1" labelOnTop="0"/>
+        <field name="FIPS_1" labelOnTop="0"/>
+        <field name="FIRST_FIPS" labelOnTop="0"/>
+        <field name="FIRST_HASC" labelOnTop="0"/>
+        <field name="HASC_1" labelOnTop="0"/>
+        <field name="ISO" labelOnTop="0"/>
+        <field name="LabelRank" labelOnTop="0"/>
+        <field name="MAP_COLOR" labelOnTop="0"/>
+        <field name="NAME_0" labelOnTop="0"/>
+        <field name="NAME_1" labelOnTop="0"/>
+        <field name="NEV_Countr" labelOnTop="0"/>
+        <field name="NL_NAME_1" labelOnTop="0"/>
+        <field name="OBJECTID" labelOnTop="0"/>
+        <field name="Postal" labelOnTop="0"/>
+        <field name="ProvNumber" labelOnTop="0"/>
+        <field name="REMARKS_1" labelOnTop="0"/>
+        <field name="Region" labelOnTop="0"/>
+        <field name="RegionVar" labelOnTop="0"/>
+        <field name="Region_C_1" labelOnTop="0"/>
+        <field name="Region_C_2" labelOnTop="0"/>
+        <field name="Region_C_3" labelOnTop="0"/>
+        <field name="Region_Cod" labelOnTop="0"/>
+        <field name="ScaleRank" labelOnTop="0"/>
+        <field name="Shape_Area" labelOnTop="0"/>
+        <field name="Shape_Leng" labelOnTop="0"/>
+        <field name="TYPE_1" labelOnTop="0"/>
+        <field name="VALIDFR_1" labelOnTop="0"/>
+        <field name="VALIDTO_1" labelOnTop="0"/>
+        <field name="VARNAME_1" labelOnTop="0"/>
+        <field name="VertexCou" labelOnTop="0"/>
+        <field name="gadm_level" labelOnTop="0"/>
+        <field name="sameAsCity" labelOnTop="0"/>
+      </labelOnTop>
       <widgets/>
-      <previewExpression>"NAME_0"</previewExpression>
+      <previewExpression>NAME_0</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer labelsEnabled="1" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" maxScale="0" minScale="0" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyAlgorithm="0">
+    <maplayer refreshOnNotifyMessage="" minScale="0" simplifyDrawingHints="1" autoRefreshTime="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" maxScale="0" labelsEnabled="1" simplifyAlgorithm="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-5.1326269186972695</xmin>
         <ymin>46.2791909857754149</ymin>
@@ -821,10 +996,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol name="0" type="fill" clip_to_extent="1" force_rhr="0" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="207,230,184,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -838,9 +1013,9 @@
               <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -857,18 +1032,18 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" maxScaleDenominator="inf" rotationOffset="270" labelPlacementMethod="XHeight" penColor="#000000" height="15" scaleBasedVisibility="0" diagramOrientation="Up" minimumSize="0" scaleDependency="Area" barWidth="5" penAlpha="255" penWidth="0" sizeScale="3x:0,0,0,0,0,0" width="15" backgroundAlpha="255" opacity="1" minScaleDenominator="inf" lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" backgroundColor="#ffffff" enabled="0">
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory labelPlacementMethod="XHeight" backgroundColor="#ffffff" diagramOrientation="Up" height="15" minScaleDenominator="inf" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" opacity="1" rotationOffset="270" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" maxScaleDenominator="inf" enabled="0" sizeType="MM" minimumSize="0" penColor="#000000" backgroundAlpha="255" penWidth="0" scaleBasedVisibility="0" width="15" scaleDependency="Area">
           <fontProperties description="Ubuntu,11,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" label="" color="#000000"/>
+          <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings dist="0" obstacle="0" linePlacementFlags="10" zIndex="0" priority="0" placement="0" showAll="1">
+      <DiagramLayerSettings zIndex="0" linePlacementFlags="10" showAll="1" placement="0" obstacle="0" priority="0" dist="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
@@ -881,8 +1056,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -891,8 +1066,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -901,8 +1076,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -911,8 +1086,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -921,8 +1096,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -931,8 +1106,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -941,8 +1116,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -951,8 +1126,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -961,8 +1136,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -971,8 +1146,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -981,8 +1156,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -991,8 +1166,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1001,8 +1176,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1011,8 +1186,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1021,8 +1196,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1031,8 +1206,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1041,8 +1216,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1051,8 +1226,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1061,8 +1236,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1071,8 +1246,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1081,8 +1256,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1091,8 +1266,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1101,8 +1276,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1111,8 +1286,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1121,8 +1296,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1131,8 +1306,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1141,8 +1316,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1151,8 +1326,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1161,8 +1336,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1171,8 +1346,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1181,8 +1356,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1191,8 +1366,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1201,8 +1376,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1211,8 +1386,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1221,8 +1396,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1231,8 +1406,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1241,8 +1416,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1251,8 +1426,8 @@
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1301,175 +1476,175 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
-        <default field="VertexCou" expression="" applyOnUpdate="0"/>
-        <default field="ISO" expression="" applyOnUpdate="0"/>
-        <default field="NAME_0" expression="" applyOnUpdate="0"/>
-        <default field="NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="VARNAME_1" expression="" applyOnUpdate="0"/>
-        <default field="NL_NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="HASC_1" expression="" applyOnUpdate="0"/>
-        <default field="TYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="ENGTYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDFR_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDTO_1" expression="" applyOnUpdate="0"/>
-        <default field="REMARKS_1" expression="" applyOnUpdate="0"/>
-        <default field="Region" expression="" applyOnUpdate="0"/>
-        <default field="RegionVar" expression="" applyOnUpdate="0"/>
-        <default field="ProvNumber" expression="" applyOnUpdate="0"/>
-        <default field="NEV_Countr" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_FIPS" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_HASC" expression="" applyOnUpdate="0"/>
-        <default field="FIPS_1" expression="" applyOnUpdate="0"/>
-        <default field="gadm_level" expression="" applyOnUpdate="0"/>
-        <default field="CheckMe" expression="" applyOnUpdate="0"/>
-        <default field="Region_Cod" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_1" expression="" applyOnUpdate="0"/>
-        <default field="ScaleRank" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_2" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_3" expression="" applyOnUpdate="0"/>
-        <default field="Country_Pr" expression="" applyOnUpdate="0"/>
-        <default field="DataRank" expression="" applyOnUpdate="0"/>
-        <default field="Abbrev" expression="" applyOnUpdate="0"/>
-        <default field="Postal" expression="" applyOnUpdate="0"/>
-        <default field="Area_sqkm" expression="" applyOnUpdate="0"/>
-        <default field="sameAsCity" expression="" applyOnUpdate="0"/>
-        <default field="ADM0_A3" expression="" applyOnUpdate="0"/>
-        <default field="MAP_COLOR" expression="" applyOnUpdate="0"/>
-        <default field="LabelRank" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Leng" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Area" expression="" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="OBJECTID"/>
+        <default expression="" applyOnUpdate="0" field="VertexCou"/>
+        <default expression="" applyOnUpdate="0" field="ISO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_0"/>
+        <default expression="" applyOnUpdate="0" field="NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="VARNAME_1"/>
+        <default expression="" applyOnUpdate="0" field="NL_NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="HASC_1"/>
+        <default expression="" applyOnUpdate="0" field="TYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="ENGTYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDFR_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDTO_1"/>
+        <default expression="" applyOnUpdate="0" field="REMARKS_1"/>
+        <default expression="" applyOnUpdate="0" field="Region"/>
+        <default expression="" applyOnUpdate="0" field="RegionVar"/>
+        <default expression="" applyOnUpdate="0" field="ProvNumber"/>
+        <default expression="" applyOnUpdate="0" field="NEV_Countr"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_FIPS"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_HASC"/>
+        <default expression="" applyOnUpdate="0" field="FIPS_1"/>
+        <default expression="" applyOnUpdate="0" field="gadm_level"/>
+        <default expression="" applyOnUpdate="0" field="CheckMe"/>
+        <default expression="" applyOnUpdate="0" field="Region_Cod"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_1"/>
+        <default expression="" applyOnUpdate="0" field="ScaleRank"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_2"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_3"/>
+        <default expression="" applyOnUpdate="0" field="Country_Pr"/>
+        <default expression="" applyOnUpdate="0" field="DataRank"/>
+        <default expression="" applyOnUpdate="0" field="Abbrev"/>
+        <default expression="" applyOnUpdate="0" field="Postal"/>
+        <default expression="" applyOnUpdate="0" field="Area_sqkm"/>
+        <default expression="" applyOnUpdate="0" field="sameAsCity"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3"/>
+        <default expression="" applyOnUpdate="0" field="MAP_COLOR"/>
+        <default expression="" applyOnUpdate="0" field="LabelRank"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="OBJECTID" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VertexCou" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ISO" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_0" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VARNAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NL_NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="HASC_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="TYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ENGTYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDFR_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDTO_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="REMARKS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="RegionVar" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ProvNumber" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NEV_Countr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_FIPS" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_HASC" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIPS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="gadm_level" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="CheckMe" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_Cod" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ScaleRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_2" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Country_Pr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="DataRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Abbrev" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Postal" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Area_sqkm" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="sameAsCity" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ADM0_A3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="MAP_COLOR" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="LabelRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Leng" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Area" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="OBJECTID" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VertexCou" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ISO" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_0" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VARNAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NL_NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="HASC_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="TYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ENGTYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDFR_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDTO_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="REMARKS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="RegionVar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ProvNumber" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NEV_Countr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_FIPS" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_HASC" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIPS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="gadm_level" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="CheckMe" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_Cod" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ScaleRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_2" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Country_Pr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="DataRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Abbrev" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Postal" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Area_sqkm" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sameAsCity" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ADM0_A3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="MAP_COLOR" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="LabelRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Leng" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Area" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="OBJECTID" exp=""/>
-        <constraint desc="" field="VertexCou" exp=""/>
-        <constraint desc="" field="ISO" exp=""/>
-        <constraint desc="" field="NAME_0" exp=""/>
-        <constraint desc="" field="NAME_1" exp=""/>
-        <constraint desc="" field="VARNAME_1" exp=""/>
-        <constraint desc="" field="NL_NAME_1" exp=""/>
-        <constraint desc="" field="HASC_1" exp=""/>
-        <constraint desc="" field="TYPE_1" exp=""/>
-        <constraint desc="" field="ENGTYPE_1" exp=""/>
-        <constraint desc="" field="VALIDFR_1" exp=""/>
-        <constraint desc="" field="VALIDTO_1" exp=""/>
-        <constraint desc="" field="REMARKS_1" exp=""/>
-        <constraint desc="" field="Region" exp=""/>
-        <constraint desc="" field="RegionVar" exp=""/>
-        <constraint desc="" field="ProvNumber" exp=""/>
-        <constraint desc="" field="NEV_Countr" exp=""/>
-        <constraint desc="" field="FIRST_FIPS" exp=""/>
-        <constraint desc="" field="FIRST_HASC" exp=""/>
-        <constraint desc="" field="FIPS_1" exp=""/>
-        <constraint desc="" field="gadm_level" exp=""/>
-        <constraint desc="" field="CheckMe" exp=""/>
-        <constraint desc="" field="Region_Cod" exp=""/>
-        <constraint desc="" field="Region_C_1" exp=""/>
-        <constraint desc="" field="ScaleRank" exp=""/>
-        <constraint desc="" field="Region_C_2" exp=""/>
-        <constraint desc="" field="Region_C_3" exp=""/>
-        <constraint desc="" field="Country_Pr" exp=""/>
-        <constraint desc="" field="DataRank" exp=""/>
-        <constraint desc="" field="Abbrev" exp=""/>
-        <constraint desc="" field="Postal" exp=""/>
-        <constraint desc="" field="Area_sqkm" exp=""/>
-        <constraint desc="" field="sameAsCity" exp=""/>
-        <constraint desc="" field="ADM0_A3" exp=""/>
-        <constraint desc="" field="MAP_COLOR" exp=""/>
-        <constraint desc="" field="LabelRank" exp=""/>
-        <constraint desc="" field="Shape_Leng" exp=""/>
-        <constraint desc="" field="Shape_Area" exp=""/>
+        <constraint exp="" desc="" field="OBJECTID"/>
+        <constraint exp="" desc="" field="VertexCou"/>
+        <constraint exp="" desc="" field="ISO"/>
+        <constraint exp="" desc="" field="NAME_0"/>
+        <constraint exp="" desc="" field="NAME_1"/>
+        <constraint exp="" desc="" field="VARNAME_1"/>
+        <constraint exp="" desc="" field="NL_NAME_1"/>
+        <constraint exp="" desc="" field="HASC_1"/>
+        <constraint exp="" desc="" field="TYPE_1"/>
+        <constraint exp="" desc="" field="ENGTYPE_1"/>
+        <constraint exp="" desc="" field="VALIDFR_1"/>
+        <constraint exp="" desc="" field="VALIDTO_1"/>
+        <constraint exp="" desc="" field="REMARKS_1"/>
+        <constraint exp="" desc="" field="Region"/>
+        <constraint exp="" desc="" field="RegionVar"/>
+        <constraint exp="" desc="" field="ProvNumber"/>
+        <constraint exp="" desc="" field="NEV_Countr"/>
+        <constraint exp="" desc="" field="FIRST_FIPS"/>
+        <constraint exp="" desc="" field="FIRST_HASC"/>
+        <constraint exp="" desc="" field="FIPS_1"/>
+        <constraint exp="" desc="" field="gadm_level"/>
+        <constraint exp="" desc="" field="CheckMe"/>
+        <constraint exp="" desc="" field="Region_Cod"/>
+        <constraint exp="" desc="" field="Region_C_1"/>
+        <constraint exp="" desc="" field="ScaleRank"/>
+        <constraint exp="" desc="" field="Region_C_2"/>
+        <constraint exp="" desc="" field="Region_C_3"/>
+        <constraint exp="" desc="" field="Country_Pr"/>
+        <constraint exp="" desc="" field="DataRank"/>
+        <constraint exp="" desc="" field="Abbrev"/>
+        <constraint exp="" desc="" field="Postal"/>
+        <constraint exp="" desc="" field="Area_sqkm"/>
+        <constraint exp="" desc="" field="sameAsCity"/>
+        <constraint exp="" desc="" field="ADM0_A3"/>
+        <constraint exp="" desc="" field="MAP_COLOR"/>
+        <constraint exp="" desc="" field="LabelRank"/>
+        <constraint exp="" desc="" field="Shape_Leng"/>
+        <constraint exp="" desc="" field="Shape_Area"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction value="{91347230-487f-4b58-a874-281b6dbbc97a}" key="Canvas"/>
-        <actionsetting action="" name="" type="0" notificationMessage="" id="{91347230-487f-4b58-a874-281b6dbbc97a}" icon="" capture="0" shortTitle="" isEnabledOnlyWhenEditable="0">
-          <actionScope id="Field"/>
+        <actionsetting shortTitle="" id="{91347230-487f-4b58-a874-281b6dbbc97a}" action="" name="" isEnabledOnlyWhenEditable="0" icon="" notificationMessage="" capture="0" type="0">
           <actionScope id="Feature"/>
+          <actionScope id="Field"/>
           <actionScope id="Canvas"/>
         </actionsetting>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column name="OBJECTID" type="field" hidden="0" width="-1"/>
-          <column name="VertexCou" type="field" hidden="0" width="-1"/>
-          <column name="ISO" type="field" hidden="0" width="-1"/>
-          <column name="NAME_0" type="field" hidden="0" width="-1"/>
-          <column name="NAME_1" type="field" hidden="0" width="-1"/>
-          <column name="VARNAME_1" type="field" hidden="0" width="-1"/>
-          <column name="NL_NAME_1" type="field" hidden="0" width="-1"/>
-          <column name="HASC_1" type="field" hidden="0" width="-1"/>
-          <column name="TYPE_1" type="field" hidden="0" width="-1"/>
-          <column name="ENGTYPE_1" type="field" hidden="0" width="-1"/>
-          <column name="VALIDFR_1" type="field" hidden="0" width="-1"/>
-          <column name="VALIDTO_1" type="field" hidden="0" width="-1"/>
-          <column name="REMARKS_1" type="field" hidden="0" width="-1"/>
-          <column name="Region" type="field" hidden="0" width="-1"/>
-          <column name="RegionVar" type="field" hidden="0" width="-1"/>
-          <column name="ProvNumber" type="field" hidden="0" width="-1"/>
-          <column name="NEV_Countr" type="field" hidden="0" width="-1"/>
-          <column name="FIRST_FIPS" type="field" hidden="0" width="-1"/>
-          <column name="FIRST_HASC" type="field" hidden="0" width="-1"/>
-          <column name="FIPS_1" type="field" hidden="0" width="-1"/>
-          <column name="gadm_level" type="field" hidden="0" width="-1"/>
-          <column name="CheckMe" type="field" hidden="0" width="-1"/>
-          <column name="Region_Cod" type="field" hidden="0" width="-1"/>
-          <column name="Region_C_1" type="field" hidden="0" width="-1"/>
-          <column name="ScaleRank" type="field" hidden="0" width="-1"/>
-          <column name="Region_C_2" type="field" hidden="0" width="-1"/>
-          <column name="Region_C_3" type="field" hidden="0" width="-1"/>
-          <column name="Country_Pr" type="field" hidden="0" width="-1"/>
-          <column name="DataRank" type="field" hidden="0" width="-1"/>
-          <column name="Abbrev" type="field" hidden="0" width="-1"/>
-          <column name="Postal" type="field" hidden="0" width="-1"/>
-          <column name="Area_sqkm" type="field" hidden="0" width="-1"/>
-          <column name="sameAsCity" type="field" hidden="0" width="-1"/>
-          <column name="ADM0_A3" type="field" hidden="0" width="-1"/>
-          <column name="MAP_COLOR" type="field" hidden="0" width="-1"/>
-          <column name="LabelRank" type="field" hidden="0" width="-1"/>
-          <column name="Shape_Leng" type="field" hidden="0" width="-1"/>
-          <column name="Shape_Area" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="OBJECTID" width="-1" hidden="0" type="field"/>
+          <column name="VertexCou" width="-1" hidden="0" type="field"/>
+          <column name="ISO" width="-1" hidden="0" type="field"/>
+          <column name="NAME_0" width="-1" hidden="0" type="field"/>
+          <column name="NAME_1" width="-1" hidden="0" type="field"/>
+          <column name="VARNAME_1" width="-1" hidden="0" type="field"/>
+          <column name="NL_NAME_1" width="-1" hidden="0" type="field"/>
+          <column name="HASC_1" width="-1" hidden="0" type="field"/>
+          <column name="TYPE_1" width="-1" hidden="0" type="field"/>
+          <column name="ENGTYPE_1" width="-1" hidden="0" type="field"/>
+          <column name="VALIDFR_1" width="-1" hidden="0" type="field"/>
+          <column name="VALIDTO_1" width="-1" hidden="0" type="field"/>
+          <column name="REMARKS_1" width="-1" hidden="0" type="field"/>
+          <column name="Region" width="-1" hidden="0" type="field"/>
+          <column name="RegionVar" width="-1" hidden="0" type="field"/>
+          <column name="ProvNumber" width="-1" hidden="0" type="field"/>
+          <column name="NEV_Countr" width="-1" hidden="0" type="field"/>
+          <column name="FIRST_FIPS" width="-1" hidden="0" type="field"/>
+          <column name="FIRST_HASC" width="-1" hidden="0" type="field"/>
+          <column name="FIPS_1" width="-1" hidden="0" type="field"/>
+          <column name="gadm_level" width="-1" hidden="0" type="field"/>
+          <column name="CheckMe" width="-1" hidden="0" type="field"/>
+          <column name="Region_Cod" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_1" width="-1" hidden="0" type="field"/>
+          <column name="ScaleRank" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_2" width="-1" hidden="0" type="field"/>
+          <column name="Region_C_3" width="-1" hidden="0" type="field"/>
+          <column name="Country_Pr" width="-1" hidden="0" type="field"/>
+          <column name="DataRank" width="-1" hidden="0" type="field"/>
+          <column name="Abbrev" width="-1" hidden="0" type="field"/>
+          <column name="Postal" width="-1" hidden="0" type="field"/>
+          <column name="Area_sqkm" width="-1" hidden="0" type="field"/>
+          <column name="sameAsCity" width="-1" hidden="0" type="field"/>
+          <column name="ADM0_A3" width="-1" hidden="0" type="field"/>
+          <column name="MAP_COLOR" width="-1" hidden="0" type="field"/>
+          <column name="LabelRank" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Leng" width="-1" hidden="0" type="field"/>
+          <column name="Shape_Area" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1504,7 +1679,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"NAME_0"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer labelsEnabled="1" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" maxScale="0" minScale="0" autoRefreshTime="0" readOnly="0" autoRefreshEnabled="0" geometry="Polygon" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" simplifyAlgorithm="0">
+    <maplayer refreshOnNotifyMessage="" minScale="0" simplifyDrawingHints="1" autoRefreshTime="0" geometry="Polygon" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" maxScale="0" labelsEnabled="1" simplifyAlgorithm="0" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" refreshOnNotifyEnabled="0">
       <extent>
         <xmin>-5.1326269186972695</xmin>
         <ymin>46.2791909857754149</ymin>
@@ -1568,10 +1743,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol name="0" type="fill" clip_to_extent="1" force_rhr="0" alpha="1">
-            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="140,130,77,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -1585,9 +1760,9 @@ def my_form_open(dialog, layer, feature):
               <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1609,8 +1784,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1619,8 +1794,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1629,8 +1804,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1639,8 +1814,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1649,8 +1824,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1659,8 +1834,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1669,8 +1844,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1679,8 +1854,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1689,8 +1864,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1699,8 +1874,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1709,8 +1884,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1719,8 +1894,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1729,8 +1904,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1739,8 +1914,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1749,8 +1924,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1759,8 +1934,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1769,8 +1944,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1779,8 +1954,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1789,8 +1964,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1799,8 +1974,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1809,8 +1984,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1819,8 +1994,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1829,8 +2004,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1839,8 +2014,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1849,8 +2024,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1859,8 +2034,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1869,8 +2044,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1879,8 +2054,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1889,8 +2064,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1899,8 +2074,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1909,8 +2084,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1919,8 +2094,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1929,8 +2104,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1939,8 +2114,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1949,8 +2124,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1959,8 +2134,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1969,8 +2144,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -1979,8 +2154,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="QString" value="0"/>
-                <Option name="UseHtml" type="QString" value="0"/>
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
               </Option>
             </config>
           </editWidget>
@@ -2029,134 +2204,134 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
-        <default field="VertexCou" expression="" applyOnUpdate="0"/>
-        <default field="ISO" expression="" applyOnUpdate="0"/>
-        <default field="NAME_0" expression="" applyOnUpdate="0"/>
-        <default field="NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="VARNAME_1" expression="" applyOnUpdate="0"/>
-        <default field="NL_NAME_1" expression="" applyOnUpdate="0"/>
-        <default field="HASC_1" expression="" applyOnUpdate="0"/>
-        <default field="TYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="ENGTYPE_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDFR_1" expression="" applyOnUpdate="0"/>
-        <default field="VALIDTO_1" expression="" applyOnUpdate="0"/>
-        <default field="REMARKS_1" expression="" applyOnUpdate="0"/>
-        <default field="Region" expression="" applyOnUpdate="0"/>
-        <default field="RegionVar" expression="" applyOnUpdate="0"/>
-        <default field="ProvNumber" expression="" applyOnUpdate="0"/>
-        <default field="NEV_Countr" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_FIPS" expression="" applyOnUpdate="0"/>
-        <default field="FIRST_HASC" expression="" applyOnUpdate="0"/>
-        <default field="FIPS_1" expression="" applyOnUpdate="0"/>
-        <default field="gadm_level" expression="" applyOnUpdate="0"/>
-        <default field="CheckMe" expression="" applyOnUpdate="0"/>
-        <default field="Region_Cod" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_1" expression="" applyOnUpdate="0"/>
-        <default field="ScaleRank" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_2" expression="" applyOnUpdate="0"/>
-        <default field="Region_C_3" expression="" applyOnUpdate="0"/>
-        <default field="Country_Pr" expression="" applyOnUpdate="0"/>
-        <default field="DataRank" expression="" applyOnUpdate="0"/>
-        <default field="Abbrev" expression="" applyOnUpdate="0"/>
-        <default field="Postal" expression="" applyOnUpdate="0"/>
-        <default field="Area_sqkm" expression="" applyOnUpdate="0"/>
-        <default field="sameAsCity" expression="" applyOnUpdate="0"/>
-        <default field="ADM0_A3" expression="" applyOnUpdate="0"/>
-        <default field="MAP_COLOR" expression="" applyOnUpdate="0"/>
-        <default field="LabelRank" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Leng" expression="" applyOnUpdate="0"/>
-        <default field="Shape_Area" expression="" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="OBJECTID"/>
+        <default expression="" applyOnUpdate="0" field="VertexCou"/>
+        <default expression="" applyOnUpdate="0" field="ISO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_0"/>
+        <default expression="" applyOnUpdate="0" field="NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="VARNAME_1"/>
+        <default expression="" applyOnUpdate="0" field="NL_NAME_1"/>
+        <default expression="" applyOnUpdate="0" field="HASC_1"/>
+        <default expression="" applyOnUpdate="0" field="TYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="ENGTYPE_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDFR_1"/>
+        <default expression="" applyOnUpdate="0" field="VALIDTO_1"/>
+        <default expression="" applyOnUpdate="0" field="REMARKS_1"/>
+        <default expression="" applyOnUpdate="0" field="Region"/>
+        <default expression="" applyOnUpdate="0" field="RegionVar"/>
+        <default expression="" applyOnUpdate="0" field="ProvNumber"/>
+        <default expression="" applyOnUpdate="0" field="NEV_Countr"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_FIPS"/>
+        <default expression="" applyOnUpdate="0" field="FIRST_HASC"/>
+        <default expression="" applyOnUpdate="0" field="FIPS_1"/>
+        <default expression="" applyOnUpdate="0" field="gadm_level"/>
+        <default expression="" applyOnUpdate="0" field="CheckMe"/>
+        <default expression="" applyOnUpdate="0" field="Region_Cod"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_1"/>
+        <default expression="" applyOnUpdate="0" field="ScaleRank"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_2"/>
+        <default expression="" applyOnUpdate="0" field="Region_C_3"/>
+        <default expression="" applyOnUpdate="0" field="Country_Pr"/>
+        <default expression="" applyOnUpdate="0" field="DataRank"/>
+        <default expression="" applyOnUpdate="0" field="Abbrev"/>
+        <default expression="" applyOnUpdate="0" field="Postal"/>
+        <default expression="" applyOnUpdate="0" field="Area_sqkm"/>
+        <default expression="" applyOnUpdate="0" field="sameAsCity"/>
+        <default expression="" applyOnUpdate="0" field="ADM0_A3"/>
+        <default expression="" applyOnUpdate="0" field="MAP_COLOR"/>
+        <default expression="" applyOnUpdate="0" field="LabelRank"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Leng"/>
+        <default expression="" applyOnUpdate="0" field="Shape_Area"/>
       </defaults>
       <constraints>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="OBJECTID" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VertexCou" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ISO" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_0" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VARNAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NL_NAME_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="HASC_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="TYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ENGTYPE_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDFR_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="VALIDTO_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="REMARKS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="RegionVar" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ProvNumber" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="NEV_Countr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_FIPS" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIRST_HASC" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="FIPS_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="gadm_level" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="CheckMe" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_Cod" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_1" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ScaleRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_2" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Region_C_3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Country_Pr" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="DataRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Abbrev" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Postal" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Area_sqkm" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="sameAsCity" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="ADM0_A3" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="MAP_COLOR" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="LabelRank" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Leng" notnull_strength="0"/>
-        <constraint unique_strength="0" exp_strength="0" constraints="0" field="Shape_Area" notnull_strength="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="OBJECTID" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VertexCou" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ISO" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_0" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VARNAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NL_NAME_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="HASC_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="TYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ENGTYPE_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDFR_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="VALIDTO_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="REMARKS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="RegionVar" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ProvNumber" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="NEV_Countr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_FIPS" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIRST_HASC" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="FIPS_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="gadm_level" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="CheckMe" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_Cod" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_1" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ScaleRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_2" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Region_C_3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Country_Pr" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="DataRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Abbrev" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Postal" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Area_sqkm" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="sameAsCity" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="ADM0_A3" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="MAP_COLOR" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="LabelRank" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Leng" notnull_strength="0" constraints="0"/>
+        <constraint unique_strength="0" exp_strength="0" field="Shape_Area" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint desc="" field="OBJECTID" exp=""/>
-        <constraint desc="" field="VertexCou" exp=""/>
-        <constraint desc="" field="ISO" exp=""/>
-        <constraint desc="" field="NAME_0" exp=""/>
-        <constraint desc="" field="NAME_1" exp=""/>
-        <constraint desc="" field="VARNAME_1" exp=""/>
-        <constraint desc="" field="NL_NAME_1" exp=""/>
-        <constraint desc="" field="HASC_1" exp=""/>
-        <constraint desc="" field="TYPE_1" exp=""/>
-        <constraint desc="" field="ENGTYPE_1" exp=""/>
-        <constraint desc="" field="VALIDFR_1" exp=""/>
-        <constraint desc="" field="VALIDTO_1" exp=""/>
-        <constraint desc="" field="REMARKS_1" exp=""/>
-        <constraint desc="" field="Region" exp=""/>
-        <constraint desc="" field="RegionVar" exp=""/>
-        <constraint desc="" field="ProvNumber" exp=""/>
-        <constraint desc="" field="NEV_Countr" exp=""/>
-        <constraint desc="" field="FIRST_FIPS" exp=""/>
-        <constraint desc="" field="FIRST_HASC" exp=""/>
-        <constraint desc="" field="FIPS_1" exp=""/>
-        <constraint desc="" field="gadm_level" exp=""/>
-        <constraint desc="" field="CheckMe" exp=""/>
-        <constraint desc="" field="Region_Cod" exp=""/>
-        <constraint desc="" field="Region_C_1" exp=""/>
-        <constraint desc="" field="ScaleRank" exp=""/>
-        <constraint desc="" field="Region_C_2" exp=""/>
-        <constraint desc="" field="Region_C_3" exp=""/>
-        <constraint desc="" field="Country_Pr" exp=""/>
-        <constraint desc="" field="DataRank" exp=""/>
-        <constraint desc="" field="Abbrev" exp=""/>
-        <constraint desc="" field="Postal" exp=""/>
-        <constraint desc="" field="Area_sqkm" exp=""/>
-        <constraint desc="" field="sameAsCity" exp=""/>
-        <constraint desc="" field="ADM0_A3" exp=""/>
-        <constraint desc="" field="MAP_COLOR" exp=""/>
-        <constraint desc="" field="LabelRank" exp=""/>
-        <constraint desc="" field="Shape_Leng" exp=""/>
-        <constraint desc="" field="Shape_Area" exp=""/>
+        <constraint exp="" desc="" field="OBJECTID"/>
+        <constraint exp="" desc="" field="VertexCou"/>
+        <constraint exp="" desc="" field="ISO"/>
+        <constraint exp="" desc="" field="NAME_0"/>
+        <constraint exp="" desc="" field="NAME_1"/>
+        <constraint exp="" desc="" field="VARNAME_1"/>
+        <constraint exp="" desc="" field="NL_NAME_1"/>
+        <constraint exp="" desc="" field="HASC_1"/>
+        <constraint exp="" desc="" field="TYPE_1"/>
+        <constraint exp="" desc="" field="ENGTYPE_1"/>
+        <constraint exp="" desc="" field="VALIDFR_1"/>
+        <constraint exp="" desc="" field="VALIDTO_1"/>
+        <constraint exp="" desc="" field="REMARKS_1"/>
+        <constraint exp="" desc="" field="Region"/>
+        <constraint exp="" desc="" field="RegionVar"/>
+        <constraint exp="" desc="" field="ProvNumber"/>
+        <constraint exp="" desc="" field="NEV_Countr"/>
+        <constraint exp="" desc="" field="FIRST_FIPS"/>
+        <constraint exp="" desc="" field="FIRST_HASC"/>
+        <constraint exp="" desc="" field="FIPS_1"/>
+        <constraint exp="" desc="" field="gadm_level"/>
+        <constraint exp="" desc="" field="CheckMe"/>
+        <constraint exp="" desc="" field="Region_Cod"/>
+        <constraint exp="" desc="" field="Region_C_1"/>
+        <constraint exp="" desc="" field="ScaleRank"/>
+        <constraint exp="" desc="" field="Region_C_2"/>
+        <constraint exp="" desc="" field="Region_C_3"/>
+        <constraint exp="" desc="" field="Country_Pr"/>
+        <constraint exp="" desc="" field="DataRank"/>
+        <constraint exp="" desc="" field="Abbrev"/>
+        <constraint exp="" desc="" field="Postal"/>
+        <constraint exp="" desc="" field="Area_sqkm"/>
+        <constraint exp="" desc="" field="sameAsCity"/>
+        <constraint exp="" desc="" field="ADM0_A3"/>
+        <constraint exp="" desc="" field="MAP_COLOR"/>
+        <constraint exp="" desc="" field="LabelRank"/>
+        <constraint exp="" desc="" field="Shape_Leng"/>
+        <constraint exp="" desc="" field="Shape_Area"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <actionsetting action="" name="" type="0" notificationMessage="" id="{f057aaa4-720a-4793-ab54-dbdd1d38fa88}" icon="" capture="0" shortTitle="" isEnabledOnlyWhenEditable="0">
-          <actionScope id="Field"/>
+        <actionsetting shortTitle="" id="{f057aaa4-720a-4793-ab54-dbdd1d38fa88}" action="" name="" isEnabledOnlyWhenEditable="0" icon="" notificationMessage="" capture="0" type="0">
           <actionScope id="Feature"/>
+          <actionScope id="Field"/>
           <actionScope id="Canvas"/>
         </actionsetting>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -2183,89 +2358,9 @@ def my_form_open(dialog, layer, feature):
     <layer id="france_parts_copier20180110163329820"/>
   </layerorder>
   <properties>
-    <WMTSPngLayers>
-      <Project type="bool">false</Project>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-    </WMTSPngLayers>
-    <WCSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
-    <PositionPrecision>
-      <DegreeFormat type="QString">MU</DegreeFormat>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-    </PositionPrecision>
-    <WMSFees type="QString">conditions unknown</WMSFees>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSContactPosition type="QString"></WMSContactPosition>
-    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
-    <Measurement>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-      <AreaUnits type="QString">m2</AreaUnits>
-    </Measurement>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <Identify>
-      <disabledLayers type="QStringList"/>
-    </Identify>
-    <PAL>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-      <TextFormat type="int">0</TextFormat>
-      <SearchMethod type="int">0</SearchMethod>
-    </PAL>
-    <WMTSJpegLayers>
-      <Project type="bool">false</Project>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-    </WMTSJpegLayers>
-    <WMSServiceTitle type="QString">France parts</WMSServiceTitle>
-    <Gui>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-    </Gui>
-    <DefaultStyles>
-      <ColorRamp type="QString"></ColorRamp>
-      <RandomColors type="bool">true</RandomColors>
-      <AlphaInt type="int">255</AlphaInt>
-      <Opacity type="double">1</Opacity>
-      <Line type="QString"></Line>
-      <Fill type="QString"></Fill>
-      <Marker type="QString"></Marker>
-    </DefaultStyles>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <WMSContactPhone type="QString"></WMSContactPhone>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <Macros>
-      <pythonCode type="QString"></pythonCode>
-    </Macros>
-    <WMSUrl type="QString"></WMSUrl>
-    <WCSUrl type="QString"></WCSUrl>
-    <WMTSUrl type="QString"></WMTSUrl>
-    <WMSImageQuality type="int">90</WMSImageQuality>
-    <WMSPrecision type="QString">8</WMSPrecision>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <Measure>
-      <Ellipsoid type="QString">NONE</Ellipsoid>
-    </Measure>
-    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
-    <Variables>
-      <variableNames type="QStringList"/>
-      <variableValues type="QStringList"/>
-    </Variables>
     <WMSContactMail type="QString"></WMSContactMail>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSExtent type="QStringList">
       <value>-5.33889081436</value>
       <value>45.8836135243</value>
@@ -2273,47 +2368,127 @@ def my_form_open(dialog, layer, feature):
       <value>50.1220515687</value>
     </WMSExtent>
     <WMSRootName type="QString"></WMSRootName>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <WMSCrsList type="QStringList">
-      <value>EPSG:3857</value>
-    </WMSCrsList>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <WMTSLayers>
-      <Project type="bool">false</Project>
       <Group type="QStringList"/>
+      <Project type="bool">false</Project>
       <Layer type="QStringList"/>
     </WMTSLayers>
-    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WCSLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <WFSTLayers>
-      <Delete type="QStringList"/>
-      <Insert type="QStringList"/>
-      <Update type="QStringList"/>
-    </WFSTLayers>
-    <WMTSMinScale type="int">5000</WMTSMinScale>
-    <SpatialRefSys>
-      <ProjectCRSID type="int">3452</ProjectCRSID>
-      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <WFSUrl type="QString"></WFSUrl>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSRestrictedLayers type="QStringList"/>
     <WFSLayers type="QStringList">
       <value>france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29</value>
       <value>france_parts_copier20180110163243267</value>
       <value>france_parts_copier20180110163329820</value>
     </WFSLayers>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <DefaultStyles>
+      <Opacity type="double">1</Opacity>
+      <AlphaInt type="int">255</AlphaInt>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <ColorRamp type="QString"></ColorRamp>
+      <RandomColors type="bool">true</RandomColors>
+      <Marker type="QString"></Marker>
+    </DefaultStyles>
+    <SpatialRefSys>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Variables>
+      <variableValues type="QStringList"/>
+      <variableNames type="QStringList"/>
+    </Variables>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:3857</value>
+    </WMSCrsList>
+    <WCSUrl type="QString"></WCSUrl>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSJpegLayers>
     <WFSLayersPrecision>
+      <france_parts_copier20180110163243267 type="int">8</france_parts_copier20180110163243267>
       <france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29 type="int">8</france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29>
       <france_parts_copier20180110163329820 type="int">8</france_parts_copier20180110163329820>
-      <france_parts_copier20180110163243267 type="int">8</france_parts_copier20180110163243267>
     </WFSLayersPrecision>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString">France parts</WMSServiceTitle>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Layer type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <PAL>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
   </properties>
   <visibility-presets/>
   <transformContext/>
@@ -2339,12 +2514,12 @@ def my_form_open(dialog, layer, feature):
   </projectMetadata>
   <Annotations/>
   <Layouts>
-    <Layout worldFileMap="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" name="page01" printResolution="300" units="mm">
-      <Snapper snapToGrid="0" tolerance="5" snapToItems="1" snapToGuides="1"/>
-      <Grid offsetX="0" offsetY="0" resUnits="mm" offsetUnits="mm" resolution="10"/>
+    <Layout name="page01" worldFileMap="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" printResolution="300" units="mm">
+      <Snapper tolerance="5" snapToGrid="0" snapToItems="1" snapToGuides="1"/>
+      <Grid offsetY="0" resolution="10" resUnits="mm" offsetX="0" offsetUnits="mm"/>
       <PageCollection>
-        <symbol name="" type="fill" clip_to_extent="1" force_rhr="0" alpha="1">
-          <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+        <symbol clip_to_extent="1" alpha="1" name="" force_rhr="0" type="fill">
+          <layer class="SimpleFill" locked="0" pass="0" enabled="1">
             <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
             <prop v="255,255,255,255" k="color"/>
             <prop v="miter" k="joinstyle"/>
@@ -2358,22 +2533,22 @@ def my_form_open(dialog, layer, feature):
             <prop v="solid" k="style"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option name="name" type="QString" value=""/>
+                <Option name="name" value="" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
+                <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem outlineWidthM="0.3,mm" position="0,0,mm" positionOnPage="0,0,mm" id="" zValue="0" blendMode="0" visibility="1" frame="false" groupUuid="" type="65638" excludeFromExports="0" uuid="{57cccf1c-b8aa-4042-b55b-80c58990e82e}" background="true" itemRotation="0" size="297,210,mm" frameJoinStyle="miter" positionLock="false" opacity="1" referencePoint="0" templateUuid="{57cccf1c-b8aa-4042-b55b-80c58990e82e}">
-          <FrameColor blue="0" red="0" alpha="255" green="0"/>
-          <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+        <LayoutItem uuid="{57cccf1c-b8aa-4042-b55b-80c58990e82e}" positionLock="false" zValue="0" itemRotation="0" frame="false" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" templateUuid="{57cccf1c-b8aa-4042-b55b-80c58990e82e}" excludeFromExports="0" position="0,0,mm" positionOnPage="0,0,mm" type="65638" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="true" size="297,210,mm" groupUuid="">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
-                <Option name="name" type="QString" value=""/>
+                <Option name="name" value="" type="QString"/>
                 <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
+                <Option name="type" value="collection" type="QString"/>
               </Option>
             </dataDefinedProperties>
             <customproperties/>
@@ -2381,126 +2556,126 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem outlineWidthM="0.3,mm" position="52.132,12.361,mm" positionOnPage="52.132,12.361,mm" id="" zValue="2" blendMode="0" halign="4" marginX="0" visibility="1" frame="false" groupUuid="" labelText="Mon texte" valign="128" type="65641" excludeFromExports="0" uuid="{cc5a9c8a-eea5-4cfe-9c71-8c439a8248aa}" background="false" itemRotation="0" size="138.392,18.8105,mm" frameJoinStyle="miter" positionLock="false" htmlState="0" opacity="1" referencePoint="0" marginY="0" templateUuid="{cc5a9c8a-eea5-4cfe-9c71-8c439a8248aa}">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem uuid="{cc5a9c8a-eea5-4cfe-9c71-8c439a8248aa}" positionLock="false" zValue="2" itemRotation="0" frame="false" marginY="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" marginX="0" templateUuid="{cc5a9c8a-eea5-4cfe-9c71-8c439a8248aa}" excludeFromExports="0" position="52.132,12.361,mm" htmlState="0" positionOnPage="52.132,12.361,mm" type="65641" labelText="Mon texte" halign="4" valign="128" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="false" size="138.392,18.8105,mm" groupUuid="">
+        <FrameColor alpha="255" red="0" blue="0" green="0"/>
+        <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option name="name" type="QString" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" type="QString" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
         <LabelFont description="Sans Serif,22,-1,5,50,0,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor alpha="255" red="0" blue="0" green="0"/>
       </LayoutItem>
-      <LayoutItem outlineWidthM="0.3,mm" position="60.9999,37.0836,mm" positionOnPage="60.9999,37.0836,mm" id="" zValue="1" blendMode="0" drawCanvasItems="true" followPreset="false" visibility="1" frame="false" groupUuid="" mapRotation="0" type="65639" excludeFromExports="0" uuid="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" background="true" itemRotation="0" size="195.092,132.749,mm" frameJoinStyle="miter" positionLock="false" keepLayerSet="false" followPresetName="" opacity="1" referencePoint="0" templateUuid="{8a159f17-c571-49e2-93ca-b2293e00e6ae}">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem uuid="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" positionLock="false" zValue="1" itemRotation="0" frame="false" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" templateUuid="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" followPresetName="" excludeFromExports="0" position="60.9999,37.0836,mm" followPreset="false" positionOnPage="60.9999,37.0836,mm" keepLayerSet="false" type="65639" drawCanvasItems="true" mapRotation="0" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="true" size="195.092,132.749,mm" groupUuid="">
+        <FrameColor alpha="255" red="0" blue="0" green="0"/>
+        <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
-              <Option name="name" type="QString" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option name="type" type="QString" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmin="-5.33889081436202328" xmax="3.32419280355761426" ymax="50.95019019610767685" ymin="45.05547489686208706"/>
+        <Extent ymin="45.05547489686208706" xmax="3.32419280355761426" xmin="-5.33889081436202328" ymax="50.95019019610767685"/>
         <LayerSet/>
-        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
       </LayoutItem>
       <customproperties>
         <property value="png" key="atlasRasterFormat"/>
       </customproperties>
-      <Atlas coverageLayer="" hideCoverage="0" pageNameExpression="" filterFeatures="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="0" sortFeatures="0"/>
+      <Atlas hideCoverage="0" enabled="0" pageNameExpression="" filterFeatures="0" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="" sortFeatures="0"/>
+    </Layout>
+    <Layout name="page02" worldFileMap="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" printResolution="300" units="mm">
+      <Snapper tolerance="5" snapToGrid="0" snapToItems="1" snapToGuides="1"/>
+      <Grid offsetY="0" resolution="10" resUnits="mm" offsetX="0" offsetUnits="mm"/>
+      <PageCollection>
+        <symbol clip_to_extent="1" alpha="1" name="" force_rhr="0" type="fill">
+          <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem uuid="{667f5c22-b3f3-413e-8346-8f8b66bcc830}" positionLock="false" zValue="0" itemRotation="0" frame="false" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" templateUuid="{667f5c22-b3f3-413e-8346-8f8b66bcc830}" excludeFromExports="0" position="0,0,mm" positionOnPage="0,0,mm" type="65638" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="true" size="297,210,mm" groupUuid="">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem uuid="{1250bd3d-876f-4e71-9d89-07f1b079f4f5}" positionLock="false" zValue="2" itemRotation="0" frame="false" marginY="0" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" marginX="0" templateUuid="{1250bd3d-876f-4e71-9d89-07f1b079f4f5}" excludeFromExports="0" position="52.132,12.361,mm" htmlState="0" positionOnPage="52.132,12.361,mm" type="65641" labelText="Mon texte" halign="4" valign="128" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="false" size="138.392,18.8105,mm" groupUuid="">
+        <FrameColor alpha="255" red="0" blue="0" green="0"/>
+        <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="Sans Serif,22,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor alpha="255" red="0" blue="0" green="0"/>
+      </LayoutItem>
+      <LayoutItem uuid="{66fdd4c1-141a-47f4-b1df-289235d84a79}" positionLock="false" zValue="1" itemRotation="0" frame="false" outlineWidthM="0.3,mm" visibility="1" opacity="1" id="" templateUuid="{66fdd4c1-141a-47f4-b1df-289235d84a79}" followPresetName="" excludeFromExports="0" position="60.9999,37.0836,mm" followPreset="false" positionOnPage="60.9999,37.0836,mm" keepLayerSet="false" type="65639" drawCanvasItems="true" mapRotation="0" referencePoint="0" frameJoinStyle="miter" blendMode="0" background="true" size="195.092,132.749,mm" groupUuid="">
+        <FrameColor alpha="255" red="0" blue="0" green="0"/>
+        <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymin="47.8589109029635722" xmax="1.12607761971144393" xmin="-2.09166654060333324" ymax="50.04839522141467256"/>
+        <LayerSet/>
+        <AtlasMap atlasDriven="1" scalingMode="2" margin="0.10000000000000001"/>
+      </LayoutItem>
+      <customproperties>
+        <property value="png" key="atlasRasterFormat"/>
+      </customproperties>
+      <Atlas hideCoverage="0" enabled="1" coverageLayerProvider="ogr" pageNameExpression="" filterFeatures="0" coverageLayerName="france_parts" filenamePattern="'output_'||@atlas_featurenumber" coverageLayer="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" sortFeatures="0" coverageLayerSource="/home/thomasg/git/lizmap-docker-compose/lizmap/instances/test_france_parts/france_parts/france_parts.shp"/>
     </Layout>
     <Report name="composer_01">
-      <Section footerEnabled="0" type="SectionReport" headerEnabled="0"/>
+      <Section headerEnabled="0" type="SectionReport" footerEnabled="0"/>
     </Report>
-    <Layout worldFileMap="{8a159f17-c571-49e2-93ca-b2293e00e6ae}" name="page02" printResolution="300" units="mm">
-      <Snapper snapToGrid="0" tolerance="5" snapToItems="1" snapToGuides="1"/>
-      <Grid offsetX="0" offsetY="0" resUnits="mm" offsetUnits="mm" resolution="10"/>
-      <PageCollection>
-        <symbol name="" type="fill" clip_to_extent="1" force_rhr="0" alpha="1">
-          <layer pass="0" locked="0" enabled="1" class="SimpleFill">
-            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-            <prop v="255,255,255,255" k="color"/>
-            <prop v="miter" k="joinstyle"/>
-            <prop v="0,0" k="offset"/>
-            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-            <prop v="MM" k="offset_unit"/>
-            <prop v="35,35,35,255" k="outline_color"/>
-            <prop v="no" k="outline_style"/>
-            <prop v="0.26" k="outline_width"/>
-            <prop v="MM" k="outline_width_unit"/>
-            <prop v="solid" k="style"/>
-            <data_defined_properties>
-              <Option type="Map">
-                <Option name="name" type="QString" value=""/>
-                <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
-              </Option>
-            </data_defined_properties>
-          </layer>
-        </symbol>
-        <LayoutItem outlineWidthM="0.3,mm" position="0,0,mm" positionOnPage="0,0,mm" id="" zValue="0" blendMode="0" visibility="1" frame="false" groupUuid="" type="65638" excludeFromExports="0" uuid="{667f5c22-b3f3-413e-8346-8f8b66bcc830}" background="true" itemRotation="0" size="297,210,mm" frameJoinStyle="miter" positionLock="false" opacity="1" referencePoint="0" templateUuid="{667f5c22-b3f3-413e-8346-8f8b66bcc830}">
-          <FrameColor blue="0" red="0" alpha="255" green="0"/>
-          <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
-          <LayoutObject>
-            <dataDefinedProperties>
-              <Option type="Map">
-                <Option name="name" type="QString" value=""/>
-                <Option name="properties"/>
-                <Option name="type" type="QString" value="collection"/>
-              </Option>
-            </dataDefinedProperties>
-            <customproperties/>
-          </LayoutObject>
-        </LayoutItem>
-        <GuideCollection visible="1"/>
-      </PageCollection>
-      <LayoutItem outlineWidthM="0.3,mm" position="52.132,12.361,mm" positionOnPage="52.132,12.361,mm" id="" zValue="2" blendMode="0" halign="4" marginX="0" visibility="1" frame="false" groupUuid="" labelText="Mon texte" valign="128" type="65641" excludeFromExports="0" uuid="{1250bd3d-876f-4e71-9d89-07f1b079f4f5}" background="false" itemRotation="0" size="138.392,18.8105,mm" frameJoinStyle="miter" positionLock="false" htmlState="0" opacity="1" referencePoint="0" marginY="0" templateUuid="{1250bd3d-876f-4e71-9d89-07f1b079f4f5}">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
-        <LayoutObject>
-          <dataDefinedProperties>
-            <Option type="Map">
-              <Option name="name" type="QString" value=""/>
-              <Option name="properties"/>
-              <Option name="type" type="QString" value="collection"/>
-            </Option>
-          </dataDefinedProperties>
-          <customproperties/>
-        </LayoutObject>
-        <LabelFont description="Sans Serif,22,-1,5,50,0,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
-      </LayoutItem>
-      <LayoutItem outlineWidthM="0.3,mm" position="60.9999,37.0836,mm" positionOnPage="60.9999,37.0836,mm" id="" zValue="1" blendMode="0" drawCanvasItems="true" followPreset="false" visibility="1" frame="false" groupUuid="" mapRotation="0" type="65639" excludeFromExports="0" uuid="{66fdd4c1-141a-47f4-b1df-289235d84a79}" background="true" itemRotation="0" size="195.092,132.749,mm" frameJoinStyle="miter" positionLock="false" keepLayerSet="false" followPresetName="" opacity="1" referencePoint="0" templateUuid="{66fdd4c1-141a-47f4-b1df-289235d84a79}">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
-        <LayoutObject>
-          <dataDefinedProperties>
-            <Option type="Map">
-              <Option name="name" type="QString" value=""/>
-              <Option name="properties"/>
-              <Option name="type" type="QString" value="collection"/>
-            </Option>
-          </dataDefinedProperties>
-          <customproperties/>
-        </LayoutObject>
-        <Extent xmin="-5.33889081436202328" xmax="3.32419280355761426" ymax="50.95019019610767685" ymin="45.05547489686208706"/>
-        <LayerSet/>
-        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
-      </LayoutItem>
-      <customproperties>
-        <property value="png" key="atlasRasterFormat"/>
-      </customproperties>
-      <Atlas coverageLayer="france_parts_8d8d649f_7748_43cc_8bde_b013e17ede29" hideCoverage="0" coverageLayerName="france_parts" coverageLayerProvider="ogr" pageNameExpression="" filterFeatures="0" filenamePattern="'output_'||@atlas_featurenumber" enabled="1" sortFeatures="0" coverageLayerSource="/home/thomasg/git/lizmap-docker-compose/lizmap/instances/test_france_parts/france_parts/france_parts.shp"/>
-    </Layout>
   </Layouts>
 </qgis>
