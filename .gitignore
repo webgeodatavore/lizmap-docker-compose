@@ -5,4 +5,5 @@
 /lizmap/var
 /lizmap/wps-data
 *.pyc
+*.qgs~
 
